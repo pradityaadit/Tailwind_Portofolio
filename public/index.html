@@ -7,12 +7,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
-  <body class="bg-zinc-200 font-serif">
+  <body class="bg-zinc-200">
     <!-- Navigation Bar -->
     <nav class="p-5 mt-4 mx-16 rounded-xl">
       <div class="container mx-auto flex justify-between items-center">
         <!-- Logo -->
-        <a href="#" class="text-slate-800 text-4xl font-bold ml-14">Logo</a>
+        <a href="#" class="text-slate-800 text-4xl font-bold ml-14 font-lora"
+          >Logo</a
+        >
 
         <!-- Navigation Links -->
         <div class="flex space-x-4 pl-3 mr-14">
@@ -92,9 +94,7 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           <!-- Card 1 -->
           <div class="bg-gray-300 rounded-lg shadow-md p-8">
-            <h3 class="text-lg font-semibold mb-4 text-gray-800 font-lora">
-              Project 1
-            </h3>
+            <h3 class="text-lg font-semibold mb-4 text-gray-800">Project 1</h3>
             <div class="bg-gray-400 h-48 w-full rounded-lg mb-4"></div>
             <p class="text-gray-600 mb-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -102,15 +102,13 @@
             <button
               class="px-4 py-2 rounded-xl border border-black bg-white text-black text-sm hover:shadow-[4px_4px_0px_0px_rgba(0,0,0)] transition duration-200"
             >
-              <a href="#">Project</a>
+              Project
             </button>
           </div>
 
           <!-- Card 2 -->
           <div class="bg-gray-300 rounded-lg shadow-md p-8">
-            <h3 class="text-lg font-semibold mb-4 text-gray-800 font-lora">
-              Project 2
-            </h3>
+            <h3 class="text-lg font-semibold mb-4 text-gray-800">Project 2</h3>
             <div class="bg-gray-400 h-48 w-full rounded-lg mb-4"></div>
             <p class="text-gray-600 mb-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -118,11 +116,11 @@
             <button
               class="px-4 py-2 rounded-xl border border-black bg-white text-black text-sm hover:shadow-[4px_4px_0px_0px_rgba(0,0,0)] transition duration-200"
             >
-              <a href="#">Project</a>
+              Project
             </button>
           </div>
           <!-- Card 3 -->
-          <div class="bg-gray-300 rounded-lg shadow-md p-8 font-lora">
+          <div class="bg-gray-300 rounded-lg shadow-md p-8">
             <h3 class="text-lg font-semibold mb-4 text-gray-800">Project 3</h3>
             <div class="bg-gray-400 h-48 w-full rounded-lg mb-4"></div>
             <p class="text-gray-600 mb-4">
@@ -135,7 +133,7 @@
             </button>
           </div>
           <!-- Card 4 -->
-          <div class="bg-gray-300 rounded-lg shadow-md p-8 font-lora">
+          <div class="bg-gray-300 rounded-lg shadow-md p-8">
             <h3 class="text-lg font-semibold mb-4 text-gray-800">Project 4</h3>
             <div class="bg-gray-400 h-48 w-full rounded-lg mb-4"></div>
             <p class="text-gray-600 mb-4">
@@ -148,7 +146,7 @@
             </button>
           </div>
           <!-- Card 5 -->
-          <div class="bg-gray-300 rounded-lg shadow-md p-8 font-lora">
+          <div class="bg-gray-300 rounded-lg shadow-md p-8">
             <h3 class="text-lg font-semibold mb-4 text-gray-800">Project 5</h3>
             <div class="bg-gray-400 h-48 w-full rounded-lg mb-4"></div>
             <p class="text-gray-600 mb-4">
@@ -161,7 +159,7 @@
             </button>
           </div>
           <!-- Card 6 -->
-          <div class="bg-gray-300 rounded-lg shadow-md p-8 font-lora">
+          <div class="bg-gray-300 rounded-lg shadow-md p-8">
             <h3 class="text-lg font-semibold mb-4 text-gray-800">Project 6</h3>
             <div class="bg-gray-400 h-48 w-full rounded-lg mb-4"></div>
             <p class="text-gray-600 mb-4">
@@ -301,9 +299,9 @@
           <div>
             <button
               type="submit"
-              class="px-6 py-3 bg-slate-800 text-white rounded-lg shadow-md hover:bg-slate-700 transition duration-300"
+              class="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md border border-black bg-transparent px-6 font-medium text-neutral-600 transition-all duration-100 [box-shadow:5px_5px_rgb(82_82_82)] hover:translate-x-[3px] hover:translate-y-[3px] hover:[box-shadow:0px_0px_rgb(82_82_82)]"
             >
-              Send Message
+              Kirim pesan
             </button>
           </div>
         </form>
@@ -397,5 +395,7 @@
 </html>
 
 <!-- UNTUK MULAI 
+
 npx tailwindcss -i ./src/css/input.css -o ./public/css/style.css --watch
- -->
+
+-->
